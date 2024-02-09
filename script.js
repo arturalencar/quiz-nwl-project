@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: "Qual é a sintaxe correta para se referir a um script externo chamado 'xxx.js'?",
+        pergunta: "Qual país ganhou a primeira Copa do Mundo em 1930?",
         respostas: [
-            "<script href='xxx.js'>",
-            "<script name='xxx.js'>",
-            "<script src='xxx.js'>",
+            "Brasil",
+            "Alemanha",
+            "Uruguai",
         ],
         correta: 2
     },
     {
-        pergunta: "Como você escreve 'Hello World' em uma caixa de alerta?",
+        pergunta: "Qual país ganhou a Copa do Mundo mais vezes?",
         respostas: [
-            "msgBox('Hello World');",
-            "alertBox('Hello World');",
-            "alert('Hello World');",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Como você cria uma função em JavaScript?",
-        respostas: [
-            "function myFunction()",
-            "function = myFunction()",
-            "function:myFunction()",
+            "Brasil",
+            "Argentina",
+            "Itália",
         ],
         correta: 0
     },
     {
-        pergunta: "Como você chama uma função chamada 'myFunction'?",
+        pergunta: "Quem marcou o gol mais rápido na história da Copa do Mundo?",
         respostas: [
-            "call function myFunction()",
-            "call myFunction()",
-            "myFunction()",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Como escrever um IF em JavaScript?",
-        respostas: [
-            "if i = 5 then",
-            "if i == 5 then",
-            "if (i == 5)",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Como um loop WHILE é escrito em JavaScript?",
-        respostas: [
-            "while (i <= 10; i++)",
-            "while i = 1 to 10",
-            "while (i <= 10)",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Como você comenta uma linha em JavaScript?",
-        respostas: [
-            "//This comment",
-            "/*This comment",
-            "'This comment",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a maneira correta de escrever um array em JavaScript?",
-        respostas: [
-            "var colors = (1:'red', 2:'green', 3:'blue')",
-            "var colors = 'red', 'green', 'blue'",
-            "var colors = ['red', 'green', 'blue']",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual operador é usado para atribuir um valor a uma variável?",
-        respostas: [
-            "*",
-            "-",
-            "=",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é a sintaxe correta para se referir a um elemento HTML em JavaScript?",
-        respostas: [
-            "document.getElement('p')",
-            "document.getElementById('p')",
-            "$(p)",
+            "Pele",
+            "Hakan Şükür",
+            "Diego Maradona",
         ],
         correta: 1
     },
+    {
+        pergunta: "Qual país sediou a Copa do Mundo de 2006?",
+        respostas: [
+            "Alemanha",
+            "França",
+            "África do Sul",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem é o maior artilheiro da história das Copas do Mundo?",
+        respostas: [
+            "Ronaldo",
+            "Miroslav Klose",
+            "Just Fontaine",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem marcou o gol do título na final da Copa do Mundo de 1958?",
+        respostas: [
+          "Pelé",
+          "Vavá",
+          "Zito",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual jogador marcou o gol da vitória na final da Copa do Mundo de 2002?",
+        respostas: [
+            "Ronaldo",
+            "Rivaldo",
+            "Ronaldinho",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual país sediou a Copa do Mundo de 2014?",
+        respostas: [
+            "Brasil",
+            "Rússia",
+            "Qatar",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem é o jogador mais jovem a marcar um gol em uma Copa do Mundo?",
+        respostas: [
+          "Pele",
+          "Diego Maradona",
+          "Lionel Messi",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual jogador detém o recorde de mais gols em uma única Copa do Mundo?",
+        respostas: [
+            "Just Fontaine",
+            "Gerd Müller",
+            "Ronaldo",
+        ],
+        correta: 0
+    },
 ]
+
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
